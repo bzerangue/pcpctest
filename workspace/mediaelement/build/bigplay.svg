@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta content="Park Cities Presbyterian Church (PCA)" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Park Cities Presbyterian Church (PCA)</title>
+    <link rel="stylesheet" href="../../css/app.css" />
+    <link rel="stylesheet" href="../../webfonts/ss-social/ss-social.css" />
+    <link href="http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css" rel="stylesheet" />
+<!--[if (gte IE 6)&(lte IE 8)]>
+      <link href='/workspace/css/ie9-below.css' rel='stylesheet'/>
+    <![endif]-->
+<!--[if lte IE 8]>
+      <link href='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet'/>
+    <![endif]-->
+    <script src="../../js/foundation/modernizr.foundation.js"></script>
+<!--[if (gte IE 6)&(lte IE 8)]>
+      <script type="text/javascript" src="/workspace/js/selectivizr.js"></script>
+    <![endif]-->
+    <script src="http://use.typekit.net/.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    <script src="http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js"></script>
+    <style>
+      #map {
+        width:600px;
+        height:400px;
+      }
+    </style>
+  </head>
+  <body class="off-canvas hide-extras">
+    <div class="ministryIndex" id="megaDrop">
+      <div class="inner">
+        <header>
+          <h2>Park Cities Presbyterian Church Ministry Index</h2>
+        </header>
+        <div id="ministryIndexWrap">
+          <ul class="ministryIndexColumn">
+            <li class="name">Services</li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+          </ul>
+          <ul class="ministryIndexColumn">
+            <li class="name">Services</li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+          </ul>
+          <ul class="ministryIndexColumn">
+            <li class="name">Services</li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+          </ul>
+          <ul class="ministryIndexColumn">
+            <li class="name">Services</li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+            <li>
+              <a href="bigplay.svg">Item Title Goes Here</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <header id="mastheadWrap">
+      <div id="masthead">
+        <div class="inner">
+          <h1 id="name">
+            <a href="../../../index.html">
+              <img src="../../images/site/logo-at-2x.png" alt="PCPC" />
+            </a>
+          </h1>
+          <aside id="hours">
+            <span class="title">Sunday Service Times</span>
+            <span class="body">8:00 am  - Communion Service<br />9:30 am / 11:00 am</span>
+          </aside>
+          <nav id="actionNav">
+            <ul>
+              <li>
+                <a href="http://pcpc.site/news">News</a>
+              </li>
+              <li>
+                <a href="http://pcpc.site/events">Events</a>
+              </li>
+              <li>
+                <a class="toggleMegaDrop" href="bigplay.svg#">
+                  <span></span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <nav class="top-bar" id="globalNav">
+        <ul>
+          <li class="name">
+            <a href="bigplay.svg#">Menu</a>
+          </li>
+          <li class="toggle-topbar">
+            <a href="bigplay.svg"></a>
+          </li>
+        </ul>
+        <section>
+          <ul>
+            <ul>
+              <li>
+                <a href="http://pcpc.site/about">About PCPC</a>
+              </li>
+              <li>
+                <a href="http://pcpc.site/worship">Worship</a>
+              </li>
+              <li>
+                <a href="http://pcpc.site/connect">Connect</a>
+              </li>
+              <li>
+                <a href="http://pcpc.site/serve">Serve</a>
+              </li>
+              <li>
+                <a href="http://pcpc.site/missions">Missions</a>
+              </li>
+              <li>
+                <a href="http://pcpc.site/care">Care</a>
+              </li>
+              <li>
+                <a href="http://pcpc.site/resources">Resources</a>
+              </li>
+              <li>
+                <a href="http://pcpc.site/new-to-pcpc">New to PCPC</a>
+              </li>
+            </ul>
+          </ul>
+        </section>
+      </nav>
+    </header>
+    <div id="contentWrap">
+      <section class="main-section" role="main">
+        <div class="inner">
+          <span id="sidebarToggle">
+            <a href="bigplay.svg#sidebar" id="sidebarButton"></a>
+          </span>
+          <div id="aside-panel">
+            <nav id="menu" role="navigation"></nav>
+          </div>
+        </div>
+      </section>
+      <section id="sidebar" role="complementary">
+        <nav id="sideMenu" role="navigation"></nav>
+      </section>
+    </div>
+    <footer id="footer">
+      <div class="inner">
+        <ul class="footerColumn">
+          <li class="quicklinks"><a href="http://pcpc.site/news">News</a> |
+          <a href="http://pcpc.site/events">Events</a> |
+          </li>
+          <li>
+            <a href="http://pcpc.site/about">About PCPC</a>
+          </li>
+          <li>
+            <a href="http://pcpc.site/worship">Worship</a>
+          </li>
+          <li>
+            <a href="http://pcpc.site/connect">Connect</a>
+          </li>
+          <li>
+            <a href="http://pcpc.site/serve">Serve</a>
+          </li>
+          <li>
+            <a href="http://pcpc.site/missions">Missions</a>
+          </li>
+          <li>
+            <a href="http://pcpc.site/care">Care</a>
+          </li>
+          <li>
+            <a href="http://pcpc.site/resources">Resources</a>
+          </li>
+          <li>
+            <a href="http://pcpc.site/new-to-pcpc">New to PCPC</a>
+          </li>
+        </ul>
+        <ul class="footerColumn">
+          <li class="name">Park Cities Presbyterian Church</li>
+          <li>4124 Oak Lawn Avenue<br />Dallas, TX75219<br /><a href="bigplay.svg#">Get Directions</a><br />
+          P: (214) 224-2500<br />
+          F: (214) 224-2782</li>
+          <li class="name">Office Hours</li>
+          <li>8:30 AM to 5:00 PM Monday through Friday</li>
+        </ul>
+        <ul class="footerColumn"><li class="name">Sunday Service Times</li><li>8:00 am  - Communion Service<br />9:30 am / 11:00 am<br /><strong><a href="http://pcpc.site/live">Live Video Stream</a></strong> of the services.
+        </li><li class="name">Social</li><a href="http://www.facebook.com/ParkCitiesPCA" class="ss-facebook ss-social-circle" target="_blank"></a><a href="http://twitter.com/parkcitiespca" class="ss-twitter ss-social-circle" target="_blank"></a><a href="http://vimeo.com/pcpc" class="ss-vimeo ss-social-circle" target="_blank"></a><a href="http://gplus.to/parkcitiespresbyterian" class="ss-googleplus ss-social-circle" target="_blank"></a><li class="name">More</li><a href="http://ustream.tv/user/parkcities " target="_blank">Ustream</a>, <a href="http://issuu.com/pcpc " target="_blank">Issuu</a></ul>
+        <ul class="footerColumn">
+          <li class="name">24/7 Prayer</li>
+          <li>
+          How can our pastors pray for you? <br /><a href="mailto:email">E: 24/7prayer(at).pcpc.org</a><br />
+          P: 214-224-2680
+        </li>
+          <li class="name">Recently</li>
+          <li>
+            <a href="bigplay.svg">On Pain: Wisdom from C.S. Lewis</a>
+          </li>
+          <li>
+            <a href="bigplay.svg">Without Ceasing: About Prayer</a>
+          </li>
+        </ul>
+      </div>
+      <div class="inner">
+        <div class="footnotes">
+          <h5>Park Cities Presbyterian Church © 2013</h5>
+          <p>A congregation of <a href="http://pcanet.org" rel="external" target="_blank">Presbyterian Church in America</a></p>
+        </div>
+      </div>
+    </footer>
+    <script src="../../js/foundation/jquery.js"></script>
+    <script src="../../js/foundation/jquery.foundation.topbar.js"></script>
+    <script src="../../js/foundation/jquery.foundation.orbit.js"></script>
+    <script src="../../js/foundation/jquery.offcanvas.js"></script>
+    <script src="../../js/mediaelement/build/mediaelement-and-player.min.js"></script>
+    <script src="../../js/app.js"></script>
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  </body>
+</html>

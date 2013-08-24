@@ -19,10 +19,11 @@ Ryan Mitts updated markup for bxslider js and it works much better. Much more fl
 
 **But, found the solution of the "Flash of Unstyled Content" issue...**
 
-- First copied Ryan's adjusted files to index2.html and workspace/js/app-previous.js
-- Added `style="display:none;"` to `<ul id="bxslider">` \- [https://github.com/bzerangue/pcpctest/blob/master/index.html#L212](https://github.com/bzerangue/pcpctest/blob/master/index.html#L212)
-- And then added jQuery method `.show()` to `$('.bxslider')` \- [https://github.com/bzerangue/pcpctest/blob/master/workspace/js/app.js#L50](https://github.com/bzerangue/pcpctest/blob/master/workspace/js/app.js#L50)
-- also, added the option of auto... to auto slide the slides.
+- First backed up Ryan's adjusted files to index2.html and workspace/js/app-previous.js
+- Then switched back to index.html and app.js to make the following changes
+    - Added `style="display:none;"` to `<ul id="bxslider">` \- [https://github.com/bzerangue/pcpctest/blob/master/index.html#L212](https://github.com/bzerangue/pcpctest/blob/master/index.html#L212)
+    - And then added jQuery method `.show()` to `$('.bxslider')` \- [https://github.com/bzerangue/pcpctest/blob/master/workspace/js/app.js#L50](https://github.com/bzerangue/pcpctest/blob/master/workspace/js/app.js#L50)
+    - also, added the option of auto... to auto slide the slides.
 
 Here's the result...
 

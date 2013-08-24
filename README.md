@@ -29,6 +29,6 @@ Here's the result...
 [http://bzerangue.github.io/pcpctest/index.html](http://bzerangue.github.io/pcpctest/index.html)
 
 Now it hides the ul#bxslider until the window loads... and it keeps from the having the "flash of unstyled content" issue from happening. 
----
+* * *
 
 ## MUCH MUCH MUCH thanks to the great Ryan Mitts from [d6interactive.com](http://www.d6interactive.com) who helped me figure this out. 

@@ -44,8 +44,10 @@
 
 $(window).load(function() {
      // Welcome Orbit
-     $('#welcomeOrbit').orbit({ animation: 'horizontal-push', fluid: '12x9', advanceSpeed: 8000, animationSpeed: 1000, pauseOnHover:  true, startClockOnMouseOut: true  });
-     $('#featuredOrbit').orbit({ fluid: '12x5', pauseOnHover:  true, startClockOnMouseOut: true });
+     //$('#welcomeOrbit').orbit({ animation: 'horizontal-push', fluid: '12x9', advanceSpeed: 8000, animationSpeed: 1000, pauseOnHover:  true, startClockOnMouseOut: true  });
+     //$('#featuredOrbit').orbit({ fluid: '12x5', pauseOnHover:  true, startClockOnMouseOut: true });
+
+     $('#bxslider').bxSlider({adaptiveHeight:true, pager: false});
  });
 
 
